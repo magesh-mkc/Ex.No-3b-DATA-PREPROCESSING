@@ -15,7 +15,7 @@ To perform data preprocessing on a dataset using Python and Scikit-learn by hand
 11.	Split the dataset into training and testing sets using train_test_split. 
 12.	Apply StandardScaler for feature scaling. 
 13.	Display the preprocessed training and testing datasets. 
-### Program
+## Program
 # Step 1: Import libraries and load dataset
 from google.colab import drive
 drive.mount('/content/drive')
@@ -71,6 +71,6 @@ print(x_train)
 print(x_test)
 # Google collab 
 https://colab.research.google.com/drive/1kNAvtuGSzp88jD_luu_TBMAMh302qQr0
-## Conclusion
+# Conclusion
 Thus, the given dataset was successfully preprocessed by handling missing values, encoding categorical variables, splitting the data into training and testing sets, and performing feature scaling.
 
